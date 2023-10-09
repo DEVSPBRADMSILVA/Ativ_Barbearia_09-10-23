@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Cor de fundo do body */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed; /* Fixar o cabeçalho */
+    top: 0; /* Posicionar no topo da página */
+    width: 97%; /* Largura total */
+    z-index: 100; /* Defina um índice de sobreposição alto para que fique acima do conteúdo */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+
+/* Estilize a seção de imagem de fundo */
+.background-image {
+    background-image: url('../img/background-image.jpg'); /* Caminho para a imagem de fundo na pasta "img" */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh; /* Altura de 50% da tela */
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semitransparente */
+}
+
+.promo {
+    background-color: #ffc107;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.promo a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para a seção de Opções de Cortes */
+.cuts {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.cuts h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.cut-options {
+    display: flex; /* Alterado para flex para alinhar as opções na horizontal */
+    justify-content: center; /* Centraliza horizontalmente as opções */
+    flex-wrap: wrap; /* Permite que as opções se quebrem para a próxima linha */
+}
+
+.cut-option {
+    margin: 20px;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    flex: 1; /* Distribui igualmente o espaço disponível entre as opções */
+    max-width: 300px; /* Defina a largura máxima desejada para cada opção */
+}
+
+/* Estilo para as imagens de corte */
+.cut-option img {
+    max-width: 100%;
+    height: auto;
+    width: 100%; /* Preenche horizontalmente o contêiner pai */
+    display: block;
+}
+
+.cut-option h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.cut-option:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para a seção de Opções de Cortes */
+.cuts {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.cuts h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.cut-options {
+    display: flex;
+    flex-wrap: nowrap; /* Impede que as opções quebrem para a próxima linha */
+    overflow-x: auto; /* Adiciona uma barra de rolagem horizontal se necessário */
+    justify-content: flex-start; /* Alinha as opções à esquerda */
+}
+
+.cut-option {
+    margin-right: 20px; /* Adicione margem entre as opções para espaçamento */
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    max-width: 300px; /* Largura máxima das opções */
+}
+
+/* Estilo para as imagens de corte */
+.cut-option img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.cut-option h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.cut-option:hover {
+    transform: scale(1.1);
+}
+
+.booking {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilize o seu formulário de agendamento aqui */
+
+
+/* Estilize os logotipos das redes sociais */
+.social-icon {
+    width: 40px; /* Defina o tamanho desejado */
+    height: 40px;
+    margin-right: 10px; /* Adicione margem à direita para separar os ícones */
+}
+
+/* Estilos para a seção de Preços */
+.prices {
+    background-image: url('../img/background-image.jpg'); /* Substitua 'sua-imagem.jpg' pelo nome da sua imagem de fundo na pasta 'img' */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* Adicione uma cor de texto legível */
+}
+.prices h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.price-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.6); /* Cor de fundo com transparência para destacar o texto */
+}
+
+.price-table th,
+.price-table td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+    color: #fff; /* Adicione uma cor de texto legível */
+}
+
+.price-table th {
+    background-color: #333;
+}
+
+.price-table tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.3); /* Cor de fundo com transparência para destacar o texto */
+}
+Certifique-se de substituir 'caminho/para/sua/imagem.jpg' pelo caminho real da sua imagem de fundo. Isso aplicará a imagem de fundo à seção de preços e estilizará a tabela de preços para ter um fundo semitransparente, tornando o texto visível. Ajuste as cores e estilos de acordo com as preferências de design do seu site.
+
+
+
+
+
