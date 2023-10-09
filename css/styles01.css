@@ -1,0 +1,158 @@
+/* Estilos para a seção de Opções de Cortes */
+.cuts {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.cut-option {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cut-option img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cut-option h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.cut-option:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para a seção de Sugestões */
+.suggestions {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.suggestions p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.suggestions-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.suggestions-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.suggestions-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.suggestions-form button {
+    display: block;
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.suggestions-form button:hover {
+    background-color: #ffdb58;
+}
+
+/* ... código anterior ... */
+
+/*     Codigo nterior do CSSSSSSSSSSSSSSSSSSSSSSSSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Cor de fundo do body */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+
+/* Estilize a seção de imagem de fundo */
+.background-image {
+    background-image: url('../img/background-image.jpg'); /* Caminho para a imagem de fundo na pasta "img" */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh; /* Altura de 50% da tela */
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semitransparente */
+}
+
+.promo {
+    background-color: #ffc107;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.promo a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+

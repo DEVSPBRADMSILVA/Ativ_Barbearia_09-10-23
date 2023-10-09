@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Barbearia Full Stack</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo da Barbearia Stylish">
+            <h1>Barbearia Full Stack</h1>
+        </div>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Serviços</a>
+            <a href="#">Preços</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <!-- Adicione uma seção com a imagem de fundo -->
+    <section class="background-image">
+        <div class="container">
+            <h2>Bem-vindo à Barbearia Full Stack</h2>
+            <p>Sua melhor escolha para cortes de cabelo e barba.</p>
+            <div class="promo">
+                <p>Estudantes do SENAC: <a href="#">Traga seu RE SENAC</a> para obter 10% de desconto em todos os serviços!</p>
+                
+            </div>
+        </div>
+    </section>
+
+   <!-- Seção de Opções de Cortes -->
+<section class="cuts">
+    <h2>Nossos Cortes</h2>
+    <div class="cut-options">
+        <div class="cut-option">
+            <img src="img/corte1.jpg" alt="Corte 1">
+            <h3>Corte 1</h3>
+        </div>
+        <div class="cut-option">
+            <img src="img/corte2.jpg" alt="Corte 2">
+            <h3>Corte 2</h3>
+        </div>
+        <div class="cut-option">
+            <img src="img/corte3.jpg" alt="Corte 3">
+            <h3>Corte 3</h3>
+        </div>
+        <div class="cut-option">
+            <img src="img/corte4.jpg" alt="Corte 4">
+            <h3>Corte 4</h3>
+        </div>
+    </div>
+
+    <!-- Seção de agendamento  -->
+    <section class="booking">
+        <h2>Agendamento</h2>
+        <p>Agende seu corte de cabelo ou barba conosco!</p>
+        <form class="booking-form" action="processar_agendamento.php" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date">Data do Agendamento:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Horário do Agendamento:</label>
+            <input type="time" id="time" name="time" required>
+
+            <button type="submit">Agendar</button>
+        </form>
+    </section>
+
+   <!-- Seção de Preços -->
+<section class="prices">
+    <div class="container">
+        <h2>Nossos Preços</h2>
+        <p>Aqui estão os preços dos nossos serviços:</p>
+        
+        <!-- Tabela de Preços -->
+        <table class="price-table">
+            <thead>
+                <tr>
+                    <th>Serviço</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Corte de Cabelo</td>
+                    <td>R$ 50,00</td>
+                </tr>
+                <tr>
+                    <td>Barba</td>
+                    <td>R$ 30,00</td>
+                </tr>
+                <tr>
+                    <td>Lavagem</td>
+                    <td>R$ 20,00</td>
+                </tr>
+                <!-- Adicione mais linhas conforme necessário -->
+            </tbody>
+        </table>
+    </div>
+</section>
+
+    <!-- Seção de Contato e Redes Sociais -->
+<section class="contact">
+    <div class="container">
+        <h2>Entre em Contato</h2>
+        <p>Estamos aqui para atendê-lo. Entre em contato conosco!</p>
+
+        <!-- Informações de Contato -->
+        <div class="contact-info">
+            <p><strong>Endereço:</strong> Rua da Barbearia, 123 - Cidade</p>
+            <p><strong>Telefone:</strong> (11) 1234-5678</p>
+            <p><strong>E-mail:</strong> contato@barbeariastylish.com</p>
+        </div>
+
+        <!-- Links para Redes Sociais -->
+        <div class="social-links">
+            <a href="https://www.facebook.com/seupagefacebook" target="_blank"><img src="img/facebook.png" alt="Facebook" class="social-icon"></a>
+            <a href="https://www.instagram.com/seuinstagram" target="_blank"><img src="img/instagram.png" alt="Instagram" class="social-icon"></a>
+            <a href="https://www.twitter.com/seutwitter" target="_blank"><img src="img/twiter.png" alt="Twitter" class="social-icon"></a>
+            <a href="https://www.tiktok.com/" target="_blank"><img src="img/tiktok.png" alt="Twitter" class="social-icon"></a>
+        </div>
+    </div>
+</section>
+
+<!-- ... código posterior ... -->
+    <footer>
+        &copy; 2023 Barbearia Stylish
+    </footer>
+</body>
+</html>
