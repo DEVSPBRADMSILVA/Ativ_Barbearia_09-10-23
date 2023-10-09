@@ -23,6 +23,14 @@ Bem-vindo ao site da Barbearia Full Stack! Este é um projeto de site de barbear
 - **Seção de Preços:** Apresenta os preços dos serviços oferecidos.
 
 - **Seção de Contato e Redes Sociais:** Fornece informações de contato da barbearia e links para suas redes sociais.
+- 
+## Recursos Necessários
+
+Para executar este projeto, você precisará dos seguintes recursos:
+
+- Um navegador da web moderno (como Google Chrome, Mozilla Firefox, ou Microsoft Edge).
+- Um ambiente de desenvolvimento web local (se você quiser fazer modificações no código).
+
 
 ## Como Usar
 
